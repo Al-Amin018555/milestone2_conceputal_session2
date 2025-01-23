@@ -11,51 +11,64 @@ body {
 
 
 /* nav related styles */
-header{
+header {
     background-color: #9376e0;
 }
-.nav-section{
+
+.nav-section {
     max-width: 1250px;
     margin: 0 auto;
     /* border: 5px solid green; */
     display: flex;
 }
-nav{
+
+nav {
     /* border: 2px solid red; */
     min-height: 20px;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     align-items: center;
     width: 50%;
     /* border: 2px dashed black; */
 }
-.nav-container img{
+
+.nav-container img {
     width: 90px;
     object-fit: cover;
 }
-.nav-container h3{
+
+.nav-container h3 {
     font-size: 25px;
 }
-.special{
+
+.special {
     color: #e893cf;
     font-weight: 900;
 }
-.nav-item{
+
+.nav-item {
     /* border: 3px solid mediumorchid; */
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-item a{
+
+.nav-item a {
     color: #e6e9eb;
     font-size: 20px;
     text-decoration: none;
 
 }
-.nav-item .login a{
+
+button {
     padding: 10px 20px;
     background-color: #e893cf;
+    border: none;
+}
+
+.nav-item button a {
     color: black;
 }
