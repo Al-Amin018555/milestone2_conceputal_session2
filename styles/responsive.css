@@ -3,7 +3,8 @@
 
 @media screen and (max-width: 576px) {
     .nav-section,
-    .nav-item{
+    .nav-item,
+    .banner-container{
         flex-direction: column;
     }
     .nav-container{
@@ -18,12 +19,24 @@
         margin: 0 auto;
         gap: 15px;
     }
+    .banner-container{
+        gap: 20px;
+    }
+    .banner-container .banner-text-content{
+        width: 100%;
+        order: 2;
+    }
+    .banner-container .banner-img{
+        width: 100%;
+        order: 1;
+    }
 }
 
 /* tablet or medium devices */
 
 @media screen and (min-width: 576px) and (max-width: 992Px) {
-    .nav-section{
+    .nav-section,
+    .banner-container{
         flex-direction: column;
     }
     .nav-container{
@@ -34,5 +47,12 @@
         width: 100%;
         gap: 30px;
         justify-content: center;
+    }
+    .banner-container{
+        gap: 20px;
+    }
+    .banner-text-content,.banner-img{
+        width: 80%;
+        margin: 0 auto;
     }
 }
