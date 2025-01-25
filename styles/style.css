@@ -121,6 +121,7 @@ button {
 
 .banner-img {
     width: 50%;
+    position: relative;
     /* border: 2px dotted purple; */
 }
 
@@ -129,4 +130,17 @@ button {
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
+}
+.discount{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #9376e0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 65%;
 }

@@ -39,7 +39,7 @@
     .banner-container{
         flex-direction: column;
     }
-    .nav-container{
+    .nav-container{ 
         width: 100%;
         justify-content: center;
     }
